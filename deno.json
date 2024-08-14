@@ -8,7 +8,7 @@
     "fix": "deno fmt && deno lint --fix",
     "build": "deno run --allow-env --allow-read --allow-write --allow-net --allow-run main.ts",
     "publish:check": "deno task check && deno publish --dry-run --allow-dirty",
-    "publish": "deno run --allow-env --allow-run=deno --allow-read --allow-write=deno.jsonc jsr:@david/publish-on-tag@0.1.x"
+    "publish": "deno run --allow-env --allow-run=deno --allow-read --allow-write=deno.json jsr:@david/publish-on-tag@0.1.x"
   },
   "imports": {
     "@cliffy/command": "jsr:@cliffy/command@^1.0.0-rc.5",
