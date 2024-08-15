@@ -28,6 +28,7 @@ import { parse } from "@std/jsonc";
 import { resolve } from "@std/path";
 import { italic } from "jsr:@std/fmt@~0.225.4/colors";
 import myDenoConfig from "./deno.json" with { type: "json" };
+import { exists } from "@std/fs";
 
 const recordType = <V>(
   keyHander: Type<string>,
@@ -664,9 +665,9 @@ if (isString(config)) {
   configPath = config;
 }
 if (isUndefined(config)) {
-  if ((await Deno.stat("deno.json")).isFile) {
+  if (await exists("deno.json", { isFile: true })) {
     configPath = "deno.json";
-  } else if ((await Deno.stat("deno.jsonc")).isFile) {
+  } else if (await exists("deno.jsonc", { isFile: true })) {
     configPath = "deno.jsonc";
   }
 }
