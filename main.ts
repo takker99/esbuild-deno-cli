@@ -645,7 +645,7 @@ const {
 let mangleCache: Record<string, string | false> | undefined;
 if (mangleCachePath) {
   try {
-    const json = await import(mangleCachePath, { with: { type: "json" } });
+    const json = await (await fetch(mangleCachePath)).json();
     mangleCache = ensure(
       json,
       isRecordObjectOf(isUnionOf([isString, isLiteralOf(false)])),
