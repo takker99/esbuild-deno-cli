@@ -122,9 +122,8 @@ const tsconfigType: TypeOrTypeHandler<PredicateType<typeof isTsconfig>> = (
   }
 };
 
-const { packages } = JSON.parse(
-  await Deno.readTextFile(new URL("./deno.lock", import.meta.url)),
-);
+const { packages } = await (await fetch(import.meta.resolve("./deno.lock")))
+  .json();
 const esbuildDenoLoaderVersion = packages
   .specifiers[myDenoConfig.imports["@luca/esbuild-deno-loader"]].split("@")
   .pop();
@@ -646,9 +645,7 @@ const {
 let mangleCache: Record<string, string | false> | undefined;
 if (mangleCachePath) {
   try {
-    const json = await import(mangleCachePath, {
-      with: { type: "json" },
-    });
+    const json = await import(mangleCachePath, { with: { type: "json" } });
     mangleCache = ensure(
       json,
       isRecordObjectOf(isUnionOf([isString, isLiteralOf(false)])),
