@@ -122,7 +122,9 @@ const tsconfigType: TypeOrTypeHandler<PredicateType<typeof isTsconfig>> = (
   }
 };
 
-const { packages } = JSON.parse(await Deno.readTextFile("deno.lock"));
+const { packages } = JSON.parse(
+  await Deno.readTextFile(new URL("./deno.lock", import.meta.url)),
+);
 const esbuildDenoLoaderVersion = packages
   .specifiers[myDenoConfig.imports["@luca/esbuild-deno-loader"]].split("@")
   .pop();
