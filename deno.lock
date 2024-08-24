@@ -6,7 +6,7 @@
       "jsr:@cliffy/flags@1.0.0-rc.5": "jsr:@cliffy/flags@1.0.0-rc.5",
       "jsr:@cliffy/internal@1.0.0-rc.5": "jsr:@cliffy/internal@1.0.0-rc.5",
       "jsr:@cliffy/table@1.0.0-rc.5": "jsr:@cliffy/table@1.0.0-rc.5",
-      "jsr:@core/unknownutil@^4.2.0": "jsr:@core/unknownutil@4.2.2",
+      "jsr:@core/unknownutil@^4.2.0": "jsr:@core/unknownutil@4.3.0",
       "jsr:@luca/esbuild-deno-loader@^0.10.3": "jsr:@luca/esbuild-deno-loader@0.10.3",
       "jsr:@std/assert@^0.213.1": "jsr:@std/assert@0.213.1",
       "jsr:@std/cli@1.0.0-rc.2": "jsr:@std/cli@1.0.0-rc.2",
@@ -49,8 +49,8 @@
           "jsr:@std/fmt@~0.225.4"
         ]
       },
-      "@core/unknownutil@4.2.2": {
-        "integrity": "3c93c9e17037cd3bf2eae0f00b4f3777b25f85399946a79ef2e25d90d3187a60"
+      "@core/unknownutil@4.3.0": {
+        "integrity": "538a3687ffa81028e91d148818047df219663d0da671d906cecd165581ae55cc"
       },
       "@luca/esbuild-deno-loader@0.10.3": {
         "integrity": "32fc93f7e7f78060234fd5929a740668aab1c742b808c6048b57f9aaea514921",
