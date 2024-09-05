@@ -19,8 +19,7 @@
       "jsr:@std/jsonc@0.213": "jsr:@std/jsonc@0.213.1",
       "jsr:@std/jsonc@^1.0.0": "jsr:@std/jsonc@1.0.1",
       "jsr:@std/path@0.213": "jsr:@std/path@0.213.1",
-      "jsr:@std/path@^1.0.2": "jsr:@std/path@1.0.3",
-      "jsr:@std/path@^1.0.3": "jsr:@std/path@1.0.3",
+      "jsr:@std/path@^1.0.2": "jsr:@std/path@1.0.4",
       "jsr:@std/path@^1.0.4": "jsr:@std/path@1.0.4",
       "jsr:@std/streams@^1.0.0": "jsr:@std/streams@1.0.3",
       "jsr:@std/text@1.0.0-rc.1": "jsr:@std/text@1.0.0-rc.1",
@@ -112,9 +111,6 @@
         "dependencies": [
           "jsr:@std/assert@^0.213.1"
         ]
-      },
-      "@std/path@1.0.3": {
-        "integrity": "cd89d014ce7eb3742f2147b990f6753ee51d95276bfc211bc50c860c1bc7df6f"
       },
       "@std/path@1.0.4": {
         "integrity": "48dd5d8389bcfcd619338a01bdf862cb7799933390146a54ae59356a0acc7105"
