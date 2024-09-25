@@ -23,7 +23,7 @@
       "jsr:@std/path@^1.0.6": "jsr:@std/path@1.0.6",
       "jsr:@std/streams@^1.0.0": "jsr:@std/streams@1.0.3",
       "jsr:@std/text@1.0.0-rc.1": "jsr:@std/text@1.0.0-rc.1",
-      "npm:esbuild@^0.23.0": "npm:esbuild@0.23.1"
+      "npm:esbuild@^0.24.0": "npm:esbuild@0.24.0"
     },
     "jsr": {
       "@cliffy/command@1.0.0-rc.5": {
@@ -126,8 +126,8 @@
       }
     },
     "npm": {
-      "esbuild@0.23.1": {
-        "integrity": "sha512-VVNz/9Sa0bs5SELtn3f7qhJCDPCF5oMEl5cO9/SSinpE9hbPVvxbd572HH5AKiP7WD8INO53GgfDDhRjkylHEg==",
+      "esbuild@0.24.0": {
+        "integrity": "sha512-FuLPevChGDshgSicjisSooU0cemp/sGXR841D5LHMB7mTVOmsEHcAxaH3irL53+8YDIeVNQEySh4DaYU/iuPqQ==",
         "dependencies": {}
       }
     }
@@ -141,7 +141,7 @@
       "jsr:@std/fs@^1.0.1",
       "jsr:@std/jsonc@^1.0.0",
       "jsr:@std/path@^1.0.2",
-      "npm:esbuild@^0.23.0"
+      "npm:esbuild@^0.24.0"
     ]
   }
 }
