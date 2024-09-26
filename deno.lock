@@ -13,17 +13,17 @@
       "jsr:@std/cli@1.0.0-rc.2": "jsr:@std/cli@1.0.0-rc.2",
       "jsr:@std/encoding@0.213": "jsr:@std/encoding@0.213.1",
       "jsr:@std/fmt@~0.225.4": "jsr:@std/fmt@0.225.6",
-      "jsr:@std/fs@^1.0.1": "jsr:@std/fs@1.0.3",
+      "jsr:@std/fs@^1.0.1": "jsr:@std/fs@1.0.4",
       "jsr:@std/json@^0.213.1": "jsr:@std/json@0.213.1",
       "jsr:@std/json@^1.0.0": "jsr:@std/json@1.0.0",
       "jsr:@std/jsonc@0.213": "jsr:@std/jsonc@0.213.1",
       "jsr:@std/jsonc@^1.0.0": "jsr:@std/jsonc@1.0.1",
       "jsr:@std/path@0.213": "jsr:@std/path@0.213.1",
       "jsr:@std/path@^1.0.2": "jsr:@std/path@1.0.6",
-      "jsr:@std/path@^1.0.4": "jsr:@std/path@1.0.4",
+      "jsr:@std/path@^1.0.6": "jsr:@std/path@1.0.6",
       "jsr:@std/streams@^1.0.0": "jsr:@std/streams@1.0.3",
       "jsr:@std/text@1.0.0-rc.1": "jsr:@std/text@1.0.0-rc.1",
-      "npm:esbuild@^0.23.0": "npm:esbuild@0.23.1"
+      "npm:esbuild@^0.24.0": "npm:esbuild@0.24.0"
     },
     "jsr": {
       "@cliffy/command@1.0.0-rc.5": {
@@ -78,10 +78,10 @@
       "@std/fmt@0.225.6": {
         "integrity": "aba6aea27f66813cecfd9484e074a9e9845782ab0685c030e453a8a70b37afc8"
       },
-      "@std/fs@1.0.3": {
-        "integrity": "3cb839b1360b0a42d8b367c3093bfe4071798e6694fa44cf1963e04a8edba4fe",
+      "@std/fs@1.0.4": {
+        "integrity": "2907d32d8d1d9e540588fd5fe0ec21ee638134bd51df327ad4e443aaef07123c",
         "dependencies": [
-          "jsr:@std/path@^1.0.4"
+          "jsr:@std/path@^1.0.6"
         ]
       },
       "@std/json@0.213.1": {
@@ -112,9 +112,6 @@
           "jsr:@std/assert@^0.213.1"
         ]
       },
-      "@std/path@1.0.4": {
-        "integrity": "48dd5d8389bcfcd619338a01bdf862cb7799933390146a54ae59356a0acc7105"
-      },
       "@std/path@1.0.6": {
         "integrity": "ab2c55f902b380cf28e0eec501b4906e4c1960d13f00e11cfbcd21de15f18fed"
       },
@@ -129,8 +126,8 @@
       }
     },
     "npm": {
-      "esbuild@0.23.1": {
-        "integrity": "sha512-VVNz/9Sa0bs5SELtn3f7qhJCDPCF5oMEl5cO9/SSinpE9hbPVvxbd572HH5AKiP7WD8INO53GgfDDhRjkylHEg==",
+      "esbuild@0.24.0": {
+        "integrity": "sha512-FuLPevChGDshgSicjisSooU0cemp/sGXR841D5LHMB7mTVOmsEHcAxaH3irL53+8YDIeVNQEySh4DaYU/iuPqQ==",
         "dependencies": {}
       }
     }
@@ -144,7 +141,7 @@
       "jsr:@std/fs@^1.0.1",
       "jsr:@std/jsonc@^1.0.0",
       "jsr:@std/path@^1.0.2",
-      "npm:esbuild@^0.23.0"
+      "npm:esbuild@^0.24.0"
     ]
   }
 }
