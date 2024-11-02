@@ -14,7 +14,7 @@
       "jsr:@std/fs@^1.0.1": "jsr:@std/fs@1.0.5",
       "jsr:@std/json@^1.0.0": "jsr:@std/json@1.0.0",
       "jsr:@std/jsonc@^1.0.0": "jsr:@std/jsonc@1.0.1",
-      "jsr:@std/path@^1.0.2": "jsr:@std/path@1.0.7",
+      "jsr:@std/path@^1.0.2": "jsr:@std/path@1.0.8",
       "jsr:@std/path@^1.0.6": "jsr:@std/path@1.0.6",
       "jsr:@std/path@^1.0.7": "jsr:@std/path@1.0.7",
       "jsr:@std/streams@^1.0.0": "jsr:@std/streams@1.0.3",
@@ -93,6 +93,9 @@
       },
       "@std/path@1.0.7": {
         "integrity": "76a689e07f0e15dcc6002ec39d0866797e7156629212b28f27179b8a5c3b33a1"
+      },
+      "@std/path@1.0.8": {
+        "integrity": "548fa456bb6a04d3c1a1e7477986b6cffbce95102d0bb447c67c4ee70e0364be"
       },
       "@std/streams@1.0.3": {
         "integrity": "d62e645ab981cee2c3d03040eb03cf387fc6bceef6d4564f3ed485a43741a81f",
