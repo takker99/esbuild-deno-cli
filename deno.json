@@ -3,9 +3,8 @@
   "version": "0.0.0",
   "exports": "./main.ts",
   "tasks": {
-    "check": "deno fmt --check && deno lint",
-    "check:type": "deno check --remote **/*.ts",
-    "fix": "deno fmt && deno lint --fix",
+    "fix": "deno fmt && deno lint --fix && deno doc --lint **/*.ts && deno test --doc --parallel --shuffle && deno publish --dry-run --allow-dirty",
+    "check": "deno fmt --check && deno lint && deno doc --lint **/*.ts && deno test --doc --parallel --shuffle && deno publish --dry-run",
     "build": "deno run --allow-env --allow-read --allow-write --allow-net --allow-run main.ts",
     "publish:check": "deno task check && deno publish --dry-run --allow-dirty",
     "publish": "deno run --allow-env --allow-run=deno --allow-read --allow-write=deno.json jsr:@david/publish-on-tag@0.1.x"
