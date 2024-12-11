@@ -214,9 +214,11 @@ const denoOptions = generalOptions
     "--lock=<lock:file>",
     "Path to the lock file. If it is not specified but the Deno configuration file is used, Find the lock file in the same directory as the Deno configuration file.",
   )
+.type("node-module-strategy", new EnumType(["none", "manual", "auto"]))
   .option(
-    "--node-modules-dir",
+    "--node-modules-dir=<nodeModulesDir:node-module-strategy>",
     `Equivalent to the "${italic("--node-modules-dir")}" flag to Deno`,
+{ default: "none" },
   );
 
 const input = denoOptions
