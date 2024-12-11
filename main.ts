@@ -123,11 +123,13 @@ const tsconfigType: TypeOrTypeHandler<PredicateType<typeof isTsconfig>> = (
   }
 };
 
-const { packages } = await (await fetch(import.meta.resolve("./deno.lock")))
+const { specifiers } = await (await fetch(import.meta.resolve("./deno.lock")))
   .json();
-const esbuildDenoLoaderVersion = packages
-  .specifiers[myDenoConfig.imports["@luca/esbuild-deno-loader"]].split("@")
-  .pop();
+
+const esbuildDenoLoaderVersion = Object.entries(
+  specifiers as Record<string, string>,
+).find(([key]) => key.includes("@luca/esbuild-deno-loader"))?.[1]?.split?.("@")
+  ?.pop?.()!;
 
 // Start CLI definition
 // The explanation and examples of the command line options below are almost copied from the [esbuild CLI output](https://github.com/evanw/esbuild/blob/main/cmd/esbuild/main.go).
@@ -214,11 +216,11 @@ const denoOptions = generalOptions
     "--lock=<lock:file>",
     "Path to the lock file. If it is not specified but the Deno configuration file is used, Find the lock file in the same directory as the Deno configuration file.",
   )
-.type("node-module-strategy", new EnumType(["none", "manual", "auto"]))
+  .type("node-module-strategy", new EnumType(["none", "manual", "auto"]))
   .option(
     "--node-modules-dir=<nodeModulesDir:node-module-strategy>",
     `Equivalent to the "${italic("--node-modules-dir")}" flag to Deno`,
-{ default: "none" },
+    { default: "none" },
   );
 
 const input = denoOptions
