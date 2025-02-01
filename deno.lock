@@ -12,9 +12,10 @@
     "jsr:@std/encoding@^1.0.5": "1.0.5",
     "jsr:@std/fmt@1": "1.0.3",
     "jsr:@std/fmt@^1.0.4": "1.0.4",
+    "jsr:@std/fmt@^1.0.5": "1.0.5",
     "jsr:@std/fmt@~0.225.4": "0.225.6",
-    "jsr:@std/fmt@~1.0.2": "1.0.4",
-    "jsr:@std/fs@^1.0.10": "1.0.10",
+    "jsr:@std/fmt@~1.0.2": "1.0.5",
+    "jsr:@std/fs@^1.0.11": "1.0.11",
     "jsr:@std/internal@^1.0.5": "1.0.5",
     "jsr:@std/jsonc@1": "1.0.1",
     "jsr:@std/path@^1.0.2": "1.0.8",
@@ -81,8 +82,11 @@
     "@std/fmt@1.0.4": {
       "integrity": "e14fe5bedee26f80877e6705a97a79c7eed599e81bb1669127ef9e8bc1e29a74"
     },
-    "@std/fs@1.0.10": {
-      "integrity": "bf041f9d7a0a460817f0421be8946d0e06011b3433e6c83a215628de5e3c7c2c",
+    "@std/fmt@1.0.5": {
+      "integrity": "0cfab43364bc36650d83c425cd6d99910fc20c4576631149f0f987eddede1a4d"
+    },
+    "@std/fs@1.0.11": {
+      "integrity": "ba674672693340c5ebdd018b4fe1af46cb08741f42b4c538154e97d217b55bdd",
       "dependencies": [
         "jsr:@std/path@^1.0.8"
       ]
@@ -213,8 +217,8 @@
       "jsr:@core/unknownutil@^4.2.0",
       "jsr:@luca/esbuild-deno-loader@0.11",
       "jsr:@std/assert@^1.0.11",
-      "jsr:@std/fmt@^1.0.4",
-      "jsr:@std/fs@^1.0.10",
+      "jsr:@std/fmt@^1.0.5",
+      "jsr:@std/fs@^1.0.11",
       "jsr:@std/jsonc@1",
       "jsr:@std/path@^1.0.2",
       "npm:esbuild@~0.24.2"
