@@ -7,7 +7,7 @@
     "jsr:@cliffy/table@1.0.0-rc.8": "1.0.0-rc.8",
     "jsr:@core/unknownutil@^4.3.0": "4.3.0",
     "jsr:@luca/esbuild-deno-loader@~0.11.1": "0.11.1",
-    "jsr:@std/assert@^1.0.14": "1.0.14",
+    "jsr:@std/assert@^1.0.15": "1.0.15",
     "jsr:@std/bytes@^1.0.2": "1.0.6",
     "jsr:@std/encoding@^1.0.5": "1.0.10",
     "jsr:@std/fmt@1": "1.0.3",
@@ -17,8 +17,9 @@
     "jsr:@std/fmt@~0.225.4": "0.225.6",
     "jsr:@std/fmt@~1.0.2": "1.0.8",
     "jsr:@std/fs@^1.0.19": "1.0.19",
-    "jsr:@std/internal@^1.0.10": "1.0.10",
-    "jsr:@std/internal@^1.0.9": "1.0.10",
+    "jsr:@std/internal@^1.0.10": "1.0.12",
+    "jsr:@std/internal@^1.0.12": "1.0.12",
+    "jsr:@std/internal@^1.0.9": "1.0.12",
     "jsr:@std/jsonc@^1.0.2": "1.0.2",
     "jsr:@std/path@^1.0.2": "1.0.8",
     "jsr:@std/path@^1.0.6": "1.1.2",
@@ -65,10 +66,10 @@
         "jsr:@std/path@^1.0.6"
       ]
     },
-    "@std/assert@1.0.14": {
-      "integrity": "68d0d4a43b365abc927f45a9b85c639ea18a9fab96ad92281e493e4ed84abaa4",
+    "@std/assert@1.0.15": {
+      "integrity": "d64018e951dbdfab9777335ecdb000c0b4e3df036984083be219ce5941e4703b",
       "dependencies": [
-        "jsr:@std/internal@^1.0.10"
+        "jsr:@std/internal@^1.0.12"
       ]
     },
     "@std/bytes@1.0.6": {
@@ -102,8 +103,8 @@
     "@std/internal@1.0.6": {
       "integrity": "9533b128f230f73bd209408bb07a4b12f8d4255ab2a4d22a1fd6d87304aca9a4"
     },
-    "@std/internal@1.0.10": {
-      "integrity": "e3be62ce42cab0e177c27698e5d9800122f67b766a0bea6ca4867886cbde8cf7"
+    "@std/internal@1.0.12": {
+      "integrity": "972a634fd5bc34b242024402972cd5143eac68d8dffaca5eaa4dba30ce17b027"
     },
     "@std/jsonc@1.0.2": {
       "integrity": "909605dae3af22bd75b1cbda8d64a32cf1fd2cf6efa3f9e224aba6d22c0f44c7"
@@ -285,7 +286,7 @@
       "jsr:@cliffy/command@^1.0.0-rc.8",
       "jsr:@core/unknownutil@^4.3.0",
       "jsr:@luca/esbuild-deno-loader@~0.11.1",
-      "jsr:@std/assert@^1.0.14",
+      "jsr:@std/assert@^1.0.15",
       "jsr:@std/fmt@^1.0.8",
       "jsr:@std/fs@^1.0.19",
       "jsr:@std/jsonc@^1.0.2",
