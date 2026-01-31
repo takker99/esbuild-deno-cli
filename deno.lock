@@ -7,7 +7,7 @@
     "jsr:@cliffy/table@1.0.0-rc.8": "1.0.0-rc.8",
     "jsr:@core/unknownutil@^4.3.0": "4.3.0",
     "jsr:@luca/esbuild-deno-loader@~0.11.1": "0.11.1",
-    "jsr:@std/assert@^1.0.17": "1.0.17",
+    "jsr:@std/assert@^1.0.18": "1.0.18",
     "jsr:@std/bytes@^1.0.2": "1.0.6",
     "jsr:@std/encoding@^1.0.5": "1.0.10",
     "jsr:@std/fmt@1": "1.0.3",
@@ -63,8 +63,8 @@
         "jsr:@std/path@^1.0.6"
       ]
     },
-    "@std/assert@1.0.17": {
-      "integrity": "df5ebfffe77c03b3fa1401e11c762cc8f603d51021c56c4d15a8c7ab45e90dbe",
+    "@std/assert@1.0.18": {
+      "integrity": "270245e9c2c13b446286de475131dc688ca9abcd94fc5db41d43a219b34d1c78",
       "dependencies": [
         "jsr:@std/internal"
       ]
@@ -283,7 +283,7 @@
       "jsr:@cliffy/command@^1.0.0-rc.8",
       "jsr:@core/unknownutil@^4.3.0",
       "jsr:@luca/esbuild-deno-loader@~0.11.1",
-      "jsr:@std/assert@^1.0.17",
+      "jsr:@std/assert@^1.0.18",
       "jsr:@std/fmt@^1.0.9",
       "jsr:@std/fs@^1.0.22",
       "jsr:@std/jsonc@^1.0.2",
